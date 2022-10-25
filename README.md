@@ -7,7 +7,9 @@ This a sandbox project and not intended for production; use at your own risk.
 ## Running locally
 
 ### Installation
+
 To run the frontend locally, simply run:
+
 ```sh
 $ git clone git@github.com:nahmii/nb-sandbox-frontend.git
 $ cd nb-sandbox-frontend
@@ -15,15 +17,22 @@ $ npm install
 ```
 
 ### Environment Variables
-This repository requires that a couple of environment variables are set:
+
+This repository requires that RPC authentication variables are set.
+
+```
 - REACT_APP_RPC_AUTH_USERNAME
 - REACT_APP_RPC_AUTH_PASSWORD
+```
 
-You can provide these by either copying the `.env.example file, renaming it to `.env` and providing the required variables OR by setting them in your shell.
+You can provide these by either copying the `.env.example` file, renaming it to `.env` and providing the required variables OR by setting them in your shell.
+
+We are using `.env.example` at build, if additional environment variables are required add them to `.env.example` with a non-secret value.
 
 ### Starting the dev server
 
 Run the following command to start the development server:
+
 ```sh
 $ npm start
 ```
@@ -39,6 +48,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 #### `npm install`
+
 To install the dependencies package.
 
 #### `npm start`
