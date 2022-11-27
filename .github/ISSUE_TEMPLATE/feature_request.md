@@ -4,7 +4,6 @@ about: Suggest a feature for this project
 title: ''
 labels: 'Enhancement'
 assignees: ''
-
 ---
 
 **Is your feature request related to a problem? Please describe.**
@@ -21,11 +20,13 @@ Add any other context or screenshots about the feature request here.
 
 **Stepwise breakdown**
 ...of the work
+
 - [ ] step 1
 - [ ] step 2
 - [ ] ...
 
 **Definition of done**
+
 - [ ] done 1
 - [ ] done 2
 - [ ] ...

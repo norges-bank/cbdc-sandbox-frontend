@@ -4,7 +4,6 @@ about: Suggest a user story for this project
 title: ''
 labels: 'Enhancement'
 assignees: ''
-
 ---
 
 # Description
